@@ -1,2 +1,2 @@
 # CICD_Pipeline_Demo
-Creating CICD pipelines using GitHub Actions
+Creating CICD pipeline using GitHub Actions
