@@ -24,3 +24,4 @@ const Question = model<IQuestion>('Question', QuestionSchema);
 // export { IQuestion, QuestionSchema };
 // export default Question;
 export { type IQuestion, Question };
+export default Question;
