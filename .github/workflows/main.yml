@@ -1,5 +1,5 @@
 # Name of workflow
-name: CICD workflow
+name: Test and Merge
 
 # Trigger workflow on all pull requests
 on:
@@ -27,8 +27,13 @@ jobs:
       # Install dependencies
       - name: 🧰 Install Deps
         run: npm install
-        
-      # Run test
-      - name: Build and Test
+
+      # Build App
+      - name: Build App
         run: npm run build
+
+      # Run test
+      - name: Run tests
         run: npm test
+      
+      
