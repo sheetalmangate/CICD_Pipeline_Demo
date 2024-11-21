@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 20.x
 
+          
       - name: Cypress run
         uses: cypress-io/github-action@v6
 
@@ -38,5 +39,5 @@ jobs:
       # Run test
       - name: Run tests
         run: npm run test-component
-      
+
       
