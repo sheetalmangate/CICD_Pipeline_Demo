@@ -12,3 +12,4 @@ const Question = model('Question', QuestionSchema);
 // export { IQuestion, QuestionSchema };
 // export default Question;
 export { Question };
+export default Question;

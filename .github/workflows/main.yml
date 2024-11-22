@@ -24,13 +24,11 @@ jobs:
         with:
           node-version: 20.x
 
-        
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
           build: npm run build
           start: npm run start 
           component: true
-        
       
       
