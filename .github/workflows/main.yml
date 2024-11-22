@@ -24,20 +24,11 @@ jobs:
         with:
           node-version: 20.x
 
-          
       - name: Cypress run
         uses: cypress-io/github-action@v6
-
-      # Install dependencies
-      - name: 🧰 Install Deps
-        run: npm install
-
-      # Build App
-      - name: Build App
-        run: npm run build
-
-      # Run test
-      - name: Run tests
-        run: npm run test-component
-
+        with:
+          build: npm run build
+          start: npm run start 
+          component: true
+      
       
