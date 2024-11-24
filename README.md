@@ -29,10 +29,18 @@ Actions are defined inside the `main.yml` and `deploy.yml` files. The `on` porti
         git push origin feature/test-cases
   ```
 
-- Open GitHub and click "Create pull request". choose branch `feature/test-cases` to merge into `develop`. 
-click on details it will run all test cases 
+- Open GitHub and navigate to the to Pull Request tab.
+- Click on the "New Pull Request" button.
+- In the "Compare" dropdown, choose the branch `feature/test-cases`.
+- In the "base" dropdown, select the `develop` branch.
+- Click on "Create pull request" to initiate the PR.
+- Once the pull request is created, click on the "Details" link to view the status.
+  
+    ![PR details](Images/01-develop-details.png)
 
 - Open Actions from GitHub to check the status.
+
+    ![Workflow](Images/02-action-develop.png)
 
 ## Questions
   For any question please reach out!
